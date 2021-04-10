@@ -1,0 +1,45 @@
+.chaba-bg{
+    background-image: url('../img/bg-pic.png');
+    background-size: 100%;
+}
+
+.nav-link{
+    font-family: "Arial";
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    color: black;
+    line-height: 70px;
+}
+
+.active{
+    color: #5D1616;
+}
+
+.nav-link:hover{
+    color: #5D1616;
+}
+
+.title{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 29px;
+}
+
+#btn-seach{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid black 2px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.btn-outline-dark:hover{
+    background-color: #5D1616 !important;
+    color: white;
+    border: solid #5D1616 2px !important;
+}
