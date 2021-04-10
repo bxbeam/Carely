@@ -9,7 +9,6 @@
     letter-spacing: 0.5px;
     font-size: 25px;
     color: black;
-    line-height: 70px;
 }
 
 .active{
@@ -38,8 +37,13 @@
     font-size: 22px;
 }
 
-.btn-outline-dark:hover{
+#btn-seach:hover{
     background-color: #5D1616 !important;
     color: white;
     border: solid #5D1616 2px !important;
+}
+
+#btn-seach:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #7D4545;
 }

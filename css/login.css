@@ -1,0 +1,51 @@
+.form-signin {
+  width: 100%;
+  max-width: 90%;
+  padding: 15px;
+}
+
+#login{
+    width: 45%;
+    background-color: #fcfcff;
+    opacity: 0.9;
+    border: solid #fcfcfc 1px;
+    border-radius: 45px;
+}
+
+input:focus:not([readonly]) {
+  border: 2px solid #5D1616;
+  box-shadow: 0 0 0 0 #5D1616;
+}
+
+.d-flex h1{
+	color: black;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.form-signin input[type="email"] {
+ 	margin-bottom: 7px;
+  border-radius: 25px;
+  text-indent: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 25px;
+  text-indent: 10px;
+}
+
+#btn-login{
+	height: 117px;
+	width: 117px;
+	border: solid #5D1616 1px;
+	border-radius: 25px;
+	font-size: 20px;
+	background-color: #5D1616;
+	color: white;
+}
+
+#signup-link{
+	color: #242424;
+	font-weight: bold;
+}
