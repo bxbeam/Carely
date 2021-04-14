@@ -1,0 +1,21 @@
+#search{
+    width: 45%;
+    background-color: #fcfcff;
+    opacity: 0.9;
+    border: solid #fcfcfc 1px;
+    border-radius: 45px;
+}
+
+.form-search {
+    width: 100%;
+    max-width: 90%;
+    padding: 15px;
+    max-height: 340px;
+    overflow-y: scroll;
+}
+
+.form-search input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 25px;
+    text-indent: 10px;
+  }

@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/signup.css">
+  <link rel="stylesheet" href="css/search.css">
 
   <!-- Carely JS -->
   <script type="text/javascript" src="js/menu.js"></script>
@@ -58,12 +59,76 @@
         </div>
       </div> -->
 
-    <!-- ==== Search ==== 
-      <div id="search" class="container p-5" hidden>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 class="title ">Search Me</h1>  
+    <!-- ==== Search ==== -->
+      <div id="search" class="container p-5">
+        <div class="d-flex justify-content-center w-100 align-items-center">
+          <h1 class="title ">Search Me</h1> 
         </div>
-      </div> -->
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <form class="form-search">
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Username">
+              <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Name">
+              <label for="floatingPassword">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Lastname">
+              <label for="floatingPassword">Lastname</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Telephone">
+              <label for="floatingPassword">Telephone</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Username">
+              <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Name">
+              <label for="floatingPassword">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Lastname">
+              <label for="floatingPassword">Lastname</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Telephone">
+              <label for="floatingPassword">Telephone</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Username">
+              <label for="floatingInput">Username</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Name">
+              <label for="floatingPassword">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Lastname">
+              <label for="floatingPassword">Lastname</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="Telephone">
+              <label for="floatingPassword">Telephone</label>
+            </div>
+          </form>
+        </div>
+      </div> 
 
     <!-- ==== Help ==== 
       <div id="help" class="container p-5" hidden>
@@ -73,14 +138,11 @@
       </div> -->
 
     <!-- ==== Sign Up==== -->
-    <div id="signup" class="container p-5">
-
+    <div id="signup" class="container p-5" hidden>
       <div class="d-flex justify-content-center w-100 align-items-center">
         <h1>Sign Up</h1>
       </div>
-
       <div class="d-flex flex-row justify-content-center w-100 align-items-center">
-
         <form class="form-signup">
           <div class="form-floating">
             <input type="text" class="form-control" placeholder="Username">
@@ -107,7 +169,6 @@
       <div class="d-flex justify-content-center w-100 align-items-center">
         <button id="btn-signup">Register</button>
       </div>
-
     </div>
 
     <!-- ==== Login ==== -->
