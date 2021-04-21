@@ -18,8 +18,8 @@ input:focus:not([readonly]) {
 }
 
 .d-flex h1{
-	color: black;
-	font-weight: bold;
+	color: black;  
+  font-weight: bold;
 	margin-bottom: 15px;
 }
 

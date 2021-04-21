@@ -19,3 +19,10 @@
     border-radius: 25px;
     text-indent: 10px;
   }
+  
+
+.d-flex h1{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
