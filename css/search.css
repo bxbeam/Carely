@@ -8,9 +8,10 @@
 
 .form-search {
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     padding: 15px;
     max-height: 340px;
+    background-color: red;
     overflow-y: scroll;
 }
 
